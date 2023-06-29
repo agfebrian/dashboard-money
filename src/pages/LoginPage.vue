@@ -13,7 +13,7 @@
           <label for="password" class="mb-1 text-base text-slate-400">
             Password
           </label>
-          <app-input id="password" type="password" placeholder="Password" />
+          <app-input-password id="password" />
         </div>
         <app-button> Submit </app-button>
       </div>
@@ -23,5 +23,6 @@
 
 <script lang="ts" setup>
 import AppInput from "@/components/ui/input/AppInput.vue";
+import AppInputPassword from "@/components/ui/input/AppInputPassword.vue";
 import AppButton from "@/components/ui/buttons/AppButton.vue";
 </script>
