@@ -16,3 +16,22 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Getting Started
+
+To get a local copy of this project up and running, follow these steps:
+Clone the repository: git clone https://github.com/your-username/dashboard-money.git
+Navigate to the project directory: cd dashboard-money
+Install the dependencies: npm install
+Start the development server: npm run dev
+Open your web browser and visit: http://127.0.0.1:5173/
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+Vue.js: https://vuejs.org/
+Tailwind: https://tailwindcss.com
+Happy coding! :tada:
