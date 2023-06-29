@@ -8,7 +8,7 @@
 import AppInput from "./AppInput.vue";
 
 interface Props {
-  size: string;
+  size?: string;
 }
 
 withDefaults(defineProps<Props>(), {

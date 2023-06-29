@@ -10,7 +10,7 @@
 import { useSizing } from "@/composables/globals/useSizing";
 
 interface Props {
-  size: string;
+  size?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
